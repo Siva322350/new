@@ -1,0 +1,17 @@
+prem sagar s
+7:27 PM
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+https://chocolatey.org/install
+prem sagar s
+7:44 PM
+git clone https://github.com/hashicorp/terraform.git
+prem sagar s
+8:01 PM
+git clone https://github.com/hashicorp/terraform.git
+uio-waey-tvjhttps://developer.hashicorp.com/terraform/install
+prem sagar s
+8:18 PM
+terraform -help
+prem sagar s
+8:19 PM
+Set-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment' -Name PATH -Value  (((Get-ItemProperty -Path 'Registry::HKEY_LOCAL_MACHINE\System\CurrentControlSet\Control\Session Manager\Environment' -Name PATH).path) + ";c:\apps\terraform" )
